@@ -1,7 +1,5 @@
 # <u> Steganalysis </u>
 
-<hr>
-
 <i> Note: Please star the repo if you find this project useful. </i>
 
 <hr>
