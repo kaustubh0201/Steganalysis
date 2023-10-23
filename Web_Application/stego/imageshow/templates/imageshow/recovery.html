@@ -1,0 +1,16 @@
+{% load static %}
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    </head>
+    <body>
+        <div class="recovery-body">
+            <br>
+            <div class="rec-msg" style="width:80%; background-color: white; border: 2px solid blue; margin: auto; padding:20px; font-size: 20px;">
+                <h2 style="margin-top:-8px;">Recovered Message :</h2>
+                {{ message }}
+            </div>
+        </div>
+    </body>
+</html>

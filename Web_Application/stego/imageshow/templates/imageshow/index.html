@@ -1,0 +1,43 @@
+{% load static %}
+{% load widget_tweaks %}
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div id="FileUpload">
+        <div class="wrapper">
+            <div class="upload">
+                <!-- <p>Drag files here or <span class="upload__button">Browse</span> </p> -->
+                {% render_field imageform.image %} <br><br>
+            </div>
+            <div class="upload">
+                {% render_field imageform.message %} <br><br>
+            </div>
+            <div class="upload">
+                {% render_field imageform.algorithm %} <br><br>
+            </div>
+            <div class="upload">
+                <input type="submit" value="Submit" id="submit_id">
+            </div>  
+
+        </div>
+    </div>
+</form>
+
+</html>
+
+
+<!--
+<html>
+    <body>
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ imageform.as_p }}
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>-->

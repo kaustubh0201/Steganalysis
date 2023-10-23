@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+    border-bottom: 0px solid black;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  /* === Wrapper Styles === */
+  #FileUpload {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper {
+    margin-top: 180px;
+    padding: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 415px;
+  }
+  
+  /* === Upload Box === */
+  .upload {
+    margin-top: 20px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .upload p {
+    margin-top: 12px;
+    line-height: 0;
+    font-size: 22px;
+    color: #0c3214;
+    letter-spacing: 1.5px;
+  }
+  .upload__button {
+    background-color: #e6f5e9;
+    border-radius: 10px;
+    padding: 0px 8px 0px 10px;
+  }
+  .upload__button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  /* === Uploaded Files === */
+  .uploaded {
+    width: 375px;
+    margin: 10px;
+    background-color: #e6f5e9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .file {
+    display: flex;
+    flex-direction: column;
+  }
+  .file__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 300px;
+    line-height: 0;
+    color: #0c3214;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  .fa-times:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .fa-file-pdf {
+    padding: 15px;
+    font-size: 40px;
+    color: #0c3214;
+  }
+  #id_image{
+    background-color: rgb(81, 159, 231);
+    border: 2px solid blue;
+    width: 20em;
+    border-radius: 4px;
+    color:black;
+    font-size:16px;
+    color: white;
+  }
+  #submit_id{
+    height: 2em;
+    width: 8em;
+    background-color: rgb(81, 159, 231);
+    border: 2px solid blue;
+    border-radius: 4px;
+    color:black;
+    font-size:20px;
+    color: white;
+  }
+  #id_message{
+    color:blue;
+  }
+  #id_algorithm{
+    height: 3em;
+    width: 22em;
+    background-color: rgb(81, 159, 231);
+    border: 2px solid blue;
+    color:white;
+  }
+  
+  #submit_id:hover{
+    background-color: rgb(144, 194, 241);
+  }
+  
+.recovery-body{
+  background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  border-bottom: 0px solid black;
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.rec-msg{
+  width:80%;
+  padding:20px;
+}
