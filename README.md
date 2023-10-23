@@ -95,8 +95,11 @@ pipenv --python path/to/python
 After the server is up, go to the url <code>http://127.0.0.1:8000/encrypt</code>.
 
 <b> Step 1: </b> Upload the image and then put the message you want to get encrypted in the image.
+
 <b> Step 2: </b> Choose the encryption algorithm among the three. 
+
 <b> Step 3: </b> Click on Submit button. You will be redirected to next page.
+
 <b> Step 4: </b> You will see the encrypted image and the recovery key associated with it. 
 
 <i> Note: Recovery key will be used in the decryption of message from the image. </i>
@@ -104,9 +107,13 @@ After the server is up, go to the url <code>http://127.0.0.1:8000/encrypt</code>
 Now, for decryption, go to the url <code> http://127.0.0.1:8000/decrypt</code>.
 
 <b> Step 1: </b> Upload the encrypted image.
+
 <b> Step 2: </b> Choose the encryption algorithm among the three.
+
 <b> Step 3: </b> Put the recovery key in text box.
+
 <b> Step 4: </b> Click on Submit button. You will be redirected to next page.
+
 <b> Step 5: </b> You will see the encrypted message.
 
 
