@@ -1,5 +1,11 @@
 # <u> Steganalysis </u>
 
+<hr>
+
+<i> Note: Please star the repo if you find this project useful. </i>
+
+<hr>
+
 ## Objective
 
 The technique of steganography is gaining importance in the fields of law enforcement, intelligence and military communication. Hence, it is important to develop techniques for steganography and steganalysis to protect the data in such images.
@@ -15,12 +21,49 @@ There are five stegoanalysis algorithsm used and it contains the all the code of
 ```
 git clone https://github.com/kaustubh0201/Steganalysis.git
 cd Steganalysis
-cd Steganalysis #(Yes, again 🙂)
+cd Steganalysis_Algorithms
 source bin/activate
 # Now the python environment will be active
+pip3 install matplotlib
+pip3 install opencv-python
+pip3 install scipy
 ```
 
+<i>Note: For exiting the python environment, use <code>deactivate</code> in the terminal. </i>
+
 For running any of the algorithms use the following command.
+
+```
+python3 RSAnalysis.py
+# Similarly, you can do with other algorithms
+```
+
+<hr>
+
+## Steganography Algorithms
+
+For running any of the three algorithm, written from scratch using C, using terminal can be done using the below. Ensure that you have gcc if you want to compile <code>main.c</code> yourself.
+
+```
+git clone https://github.com/kaustubh0201/Steganalysis.git
+cd Steganography_Algorithms
+```
+
+For encryption, do the following:
+
+```
+./main -e PVD_greyscale message /path/to/image
+# you will get your image in the path along with the recovery key
+```
+
+For decryption, do the following, <code>recovery_key</code> will be an integer which you got during encryption:
+
+```
+./main -d PVD_greyscale recovery_key /path/to/encrypted/image
+# You will get your message in the terminal
+```
+
+<i>Note: PVD_greyscale can be changed to Edge_LSB or Reversible_DCT according to the use case.</i>
 
 <hr>
 
