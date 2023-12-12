@@ -1,9 +1,5 @@
 # <u> Steganalysis </u>
 
-<i> Note: Please star the repo if you find this project useful. </i>
-
-<hr>
-
 ## Objective
 
 <p align="justify">
